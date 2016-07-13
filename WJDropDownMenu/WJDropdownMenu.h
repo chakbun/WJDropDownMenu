@@ -51,6 +51,11 @@
  */
 @property (nonatomic,assign)CGFloat menuHeight;
 
+//chakbun addition
+@property (nonatomic, assign) CGFloat numberRowToShow; //default is 5
+
+@property (nonatomic, assign) CGFloat rowHeight; // default is 30
+
 
 @property (nonatomic,assign) id<WJMenuDelegate>delegate;
 
